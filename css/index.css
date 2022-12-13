@@ -278,8 +278,8 @@ button {
   gap: 30px;
   justify-content: space-between;
 }
-.full-width {
-  flex-basis: 100%;
+.portfolio-list li:not(:last-child) {
+  width: 380px;
 }
 .card-portfolio {
   border: 1px solid #eeeeee;
