@@ -282,7 +282,6 @@ button {
   width: 380px;
 }
 .card-portfolio {
-  border: 1px solid #eeeeee;
   display: flex;
   flex-direction: column;
 }
@@ -295,6 +294,7 @@ button {
   display: flex;
   flex-direction: column;
   padding: 24px 20px;
+  border: 1px solid #eeeeee;
 }
 .section-footer {
   background-color: var(--background-dark-grey);
