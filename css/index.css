@@ -11,6 +11,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -56,14 +60,14 @@ ul,
 .contact-list-icons {
   display: flex;
   fill: currentColor;
+  margin-right: 10px;
 }
 .contact-list-icons a {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
-.contact-list-icons {
-  margin-right: 10px;
-}
+
 .page-header {
   border-bottom: 1px solid #ececec;
 }
@@ -209,9 +213,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--text-grey);
 }
-.section-about {
-  margin-top: -94px;
-}
+
 .about-list {
   display: flex;
   justify-content: space-between;
@@ -262,7 +264,8 @@ button {
 }
 
 .product {
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 400;
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--text-grey);
@@ -274,7 +277,9 @@ button {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: space-between;
-  margin-top: -128px;
+}
+.full-width {
+  flex-basis: 100%;
 }
 .card-portfolio {
   border: 1px solid #eeeeee;
