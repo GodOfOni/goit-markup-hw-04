@@ -8,7 +8,8 @@
   --background-light-grey: #f5f4fa;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
+  font-style: normal;
   color: #212121;
 }
 * {
@@ -20,7 +21,11 @@ body {
   margin: 0 auto;
 }
 .section {
-  padding: 94px 15px;
+  padding-left: 15px;
+}
+.section-portfolio-buttons {
+  padding-bottom: 34px;
+  padding-top: 94px;
 }
 h1,
 h2,
@@ -196,6 +201,9 @@ button {
   display: flex;
   justify-content: space-between;
   gap: 40px;
+  margin-top: 4px;
+  padding-bottom: 94px;
+  padding-top: 53px;
 }
 .description-list p {
   padding-top: 10px;
@@ -277,6 +285,7 @@ button {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: space-between;
+  padding-bottom: 94px;
 }
 .portfolio-list li:not(:last-child) {
   width: 380px;
@@ -322,6 +331,9 @@ button {
 .address a:hover,
 .address a:focus {
   color: var(--button-blue);
+}
+.portfolio-list :hover,
+.portfolio-list :focus {
 }
 .box-logo {
   padding-top: 60px;
