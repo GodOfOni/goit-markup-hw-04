@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
 }
 .section {
-  padding-left: 15px;
+  padding-left: 94px 15px;
 }
 .section-portfolio-buttons {
   padding-bottom: 34px;
@@ -262,6 +262,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-top: 94px;
 }
 .profession {
   font-size: 16px;
@@ -332,8 +333,9 @@ button {
 .address a:focus {
   color: var(--button-blue);
 }
-.portfolio-list :hover,
-.portfolio-list :focus {
+.portfolio-list :hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .box-logo {
   padding-top: 60px;
@@ -415,6 +417,7 @@ button {
 .box-client {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 94px;
 }
 .icons-join:hover,
 .icons-join:focus {
