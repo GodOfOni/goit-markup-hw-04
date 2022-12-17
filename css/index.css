@@ -61,7 +61,7 @@ ul,
   display: flex;
   justify-content: space-between;
   padding: 24px 0 25px;
-  margin: 0 215px auto;
+  margin: 0 auto auto;
 }
 .box-footer {
   display: flex;
