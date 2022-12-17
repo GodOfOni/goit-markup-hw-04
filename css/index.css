@@ -8,8 +8,7 @@
   --background-light-grey: #f5f4fa;
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   color: #212121;
 }
 * {
@@ -21,11 +20,7 @@ body {
   margin: 0 auto;
 }
 .section {
-  padding-left: 94px 15px;
-}
-.section-portfolio-buttons {
-  padding-bottom: 34px;
-  padding-top: 94px;
+  padding: 94px 15px;
 }
 h1,
 h2,
@@ -37,6 +32,14 @@ ul,
   margin: 0;
   padding: 0;
 }
+.card-portfolio :hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.card-portfolio-no-hover :hover {
+  box-shadow: none;
+}
+
 .nav-list,
 .contact-list,
 .description-list,
@@ -58,6 +61,7 @@ ul,
   display: flex;
   justify-content: space-between;
   padding: 24px 0 25px;
+  margin: 0 215px auto;
 }
 .box-footer {
   display: flex;
@@ -201,9 +205,6 @@ button {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  margin-top: 4px;
-  padding-bottom: 94px;
-  padding-top: 53px;
 }
 .description-list p {
   padding-top: 10px;
@@ -262,7 +263,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-top: 94px;
+  padding-top: 181px;
 }
 .profession {
   font-size: 16px;
@@ -286,7 +287,6 @@ button {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 .portfolio-list li:not(:last-child) {
   width: 380px;
@@ -332,10 +332,6 @@ button {
 .address a:hover,
 .address a:focus {
   color: var(--button-blue);
-}
-.portfolio-list :hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .box-logo {
   padding-top: 60px;
@@ -417,7 +413,6 @@ button {
 .box-client {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 .icons-join:hover,
 .icons-join:focus {
