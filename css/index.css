@@ -369,16 +369,17 @@ button {
 .team-icons {
   width: 44px;
   height: 44px;
-  fill: #afb1b8;
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #afb1b8;
 }
+
 .team-icons:hover,
 .team-icons:focus {
   background-color: #2196f3;
   border-radius: 50%;
-  fill: #fff;
+  fill: white;
   cursor: pointer;
 }
 
