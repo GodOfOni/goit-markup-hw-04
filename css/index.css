@@ -220,6 +220,7 @@ button {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-top: 30px;
 }
 .description-list p {
   font-size: 14px;
