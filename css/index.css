@@ -17,7 +17,12 @@ body {
 }
 .container {
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
+}
+.container-box-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 15px 25px;
 }
 .section {
   padding: 94px 15px;
@@ -59,7 +64,6 @@ ul,
   display: flex;
   justify-content: space-between;
   padding: 24px 0 25px;
-  margin: 0 40px auto;
 }
 .box-footer {
   display: flex;
@@ -261,6 +265,15 @@ button {
 }
 .section-team {
   background-color: var(--background-light-grey);
+  padding-bottom: 94px;
+}
+.header-third {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-top: 94px;
 }
 
 .header-secondary {
@@ -269,7 +282,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-top: 94px;
 }
 .profession {
   font-size: 16px;
